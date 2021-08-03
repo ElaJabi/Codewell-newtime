@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+   
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}  
+
+section {
+    padding: 2rem 7%;
+}
+
+.btn {
+    padding: 10px 15px;
+    background:rgb(9, 9, 77);
+    color: white;
+    border-radius: .5rem;
+}
+
+
+
+
+
+.header {
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    padding: 2rem 7%;
+    align-items: center;
+    
+}
+
+.hamburger{
+    display: none;
+}
+
+.header .logo {
+  
+
+    
+}
+
+.header .navbar {
+    display: flex;
+    
+    
+    
+}
+
+.header .navbar ul {
+  
+    display: flex;
+    margin-left: 2rem;
+  
+}
+
+.header .navbar ul li {
+    list-style: none;
+}
+
+.header .navbar ul li a {
+    color: rgb(48, 46, 46);
+    margin-left: 2rem;
+
+}
+
+.header .button .btn {
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+    
+    background:rgb(9, 9, 77);
+    color: white;
+    padding: 15px 10px;
+    border-radius: .5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.hero .content {
+    flex: 1 1 20rem;
+
+}
+
+.hero .hero-image {
+    flex: 1 1 20rem;
+   
+}
+
+.hero .hero-image img {
+    
+    width: 100%;
+    right: 0;
+}
+
+.hero .content h2 {
+    font-size: 3rem;
+}
+
+.hero .content p {
+    line-height: 1.5;
+    padding-bottom: 20px;
+    
+  
+}
+
+.hero .content .btn {
+    padding: 10px 15px;
+    background:rgb(9, 9, 77);
+    color: white;
+    border-radius: .5rem;
+}
+
+.hero .content .demo {
+    margin-left: 20px;
+    color:rgb(9, 9, 77);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero .content .image {
+    padding: 30px 0;
+}
+
+.hero .content .image img {
+    height: 20px;
+}
+
+.hero .content .image span {
+    
+    margin-top: 5px;
+}
+
+.hero .content .image a {
+    color:rgb(9, 9, 77);
+    text-decoration: underline;
+
+}
+
+.user {
+    display: flex;
+    gap: 2rem;
+  
+    flex-wrap: wrap;
+    
+  
+    
+}
+
+.user .heading-user {
+    flex: 20rem 1 1;
+}
+
+.user .user-text {
+    flex: 20rem 1 1;
+}
+
+.user .heading-user h3 {
+    font-size: 2rem;
+}
+
+.user .heading-user .image-user {
+    margin-top: 20px;
+}
+
+.user .heading-user .image-user img {
+    height: 50px;
+}
+
+.user-text p {
+    align-items: center;
+    color:rgb(48, 46, 46);
+    line-height: 2;
+}
+
+.container {
+    display: flex;
+    gap: 2.5rem;
+    background-color: rgb(76, 207, 240, 0.5);
+    flex-wrap: wrap;
+    min-height: 350px;
+    align-items: center;
+}
+
+.container .container-1 {
+    flex: 1 1 20rem;
+}
+
+.container .container-2 {
+    flex: 1 1 20rem;
+}
+
+.container .container-1  h6 {
+    color:rgb(59, 22, 101);
+    font-size: 1rem;
+
+}
+
+.container .container-2 h6 {
+    color:rgb(59, 22, 101);
+    font-size: 1rem;
+    
+}
+
+
+.container-1 p {
+    margin-bottom: 20px;
+   
+}
+
+.container-1 h3 {
+    font-size: 1.7rem;
+}
+
+.container-2 h3 {
+    font-size: 1.7rem;
+}
+
+.container .container-2 a {
+    color: rgb(3, 3, 49);
+
+}
+
+.container .container-1 p {
+    line-height: 2;
+}
+
+.container .container-2 p {
+    line-height: 2;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap:3rem;
+    max-height: 400px;
+}
+
+.footer .product {
+    flex: 1 1 5rem;
+}
+
+.footer .help {
+    flex: 1 1 5rem;
+}
+
+.footer .company {
+    flex: 1 1 5rem;
+}
+
+.footer .form {
+    flex: 1 1 10rem;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    line-height: 2;
+    cursor: pointer;
+}
+
+.form input {
+    border: rgb(194, 190, 190) 1px solid;
+    padding: 10px 15px;
+    border-radius: .5rem;
+}
+
+
+@media (max-width: 991px){
+
+    .header .navbar ul {
+        
+        display: block;
+        
+        
+        
+        
+    }
+
+
+    .header .navbar{
+        position: absolute;
+        top: 60px;
+        right: 40px;
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+       
+        
+        background-color: rgb(9, 9, 77);
+        color: white;
+        height: 200px;
+        align-items: left;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        
+        
+       
+    }
+
+    .header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+    }
+
+    .header .navbar ul li a {
+        display:block;
+        padding: .5rem;
+        margin: .5rem;
+        font-size: 1rem;
+        color: white;
+        font-weight: bold;
+        text-align: left;
+        left: 0;
+        right: 0;
+        
+        
+
+    }
+
+    .header .button {
+        display: none;
+    }
+
+    .hamburger {
+        position: absolute;
+        display: block;
+        right: 50px;
+        cursor: pointer;
+
+    }
+}
+
+
